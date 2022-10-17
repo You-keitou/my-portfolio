@@ -6,44 +6,222 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/css/all.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>My Portfolio</title>
   </head>
   <body>
-    <div class="container">
-      <div class="timeline-item" date-is="20-07-1990">
-        <h1>
-          Hello, 'Im a single div responsive timeline without mediaQueries!
-        </h1>
+    <div class="hold">
+      <div class="header">
+        <div class="container">
+          <div id="logo">You Keito's Portfolio</div>
+          <ul class="nav">
+            <li>
+              <i class="fa-solid fa-house"></i>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <i class="fa-sharp fa-solid fa-code"></i>
+              <a href="#skill">Skills</a>
+            </li>
+            <li>
+              <i class="fa-sharp fa-solid fa-folder"></i>
+              <a href="#work">Work</a>
+            </li>
+            <li>
+              <i class="fa-sharp fa-solid fa-envelope"></i>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="slider">
+        <div class="container slidercontent">
+          <h1 class="hero">Wow</h1>
+          <h2 class="hero">Wow.Wow.Wow</h2>
+          <div class="call"><span>Wow</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="about">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col sm-12 col-md-8 col-lg-5">
+            <div class="rotate-container">
+              <div class="card card-front text-center">
+                <div class="card-header">
+                  <p>About You</p>
+                </div>
+                <div class="card-background"></div>
+                <div class="card-block">
+                  <img
+                    class="avatar"
+                    src="https://userstock.io/data/wp-content/uploads/2017/09/bewakoof-com-official-245573-939x1024.jpg"
+                    alt="Avatar"
+                  />
+                  <h3 class="card-title">Your Name</h3>
+                  <p>Your Profession</p>
+                  <button class="btn btn-primary btn-rotate">
+                    Read more &nbsp; <i class="fa fa-long-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="card card-back text-center">
+                <div class="card-header">
+                  <p>More About You</p>
+                </div>
+                <div class="card-block">
+                  <h4>Interests</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas a faucibus diam. Praesent consectetur, nisl ut
+                    semper imperdiet, tortor metus ultrices lorem, non luctus
+                    massa risus at urna.
+                  </p>
+                  <h4>Connect:</h4>
+                  <ul
+                    class="social-links list-unstyled d-flex justify-content-center"
+                  >
+                    <li>
+                      <a href="#" target="_blank"
+                        ><i class="fa fa-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank"
+                        ><i class="fa fa-twitter"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank"
+                        ><i class="fa fa-snapchat"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank"
+                        ><i class="fa fa-instagram"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-rotate">
+                    <i class="fa fa-long-arrow-left"> </i>&nbsp; Back
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about">
+        <i class="fa-solid fa-house"></i>
+        生い立ち
+      </div>
+      <div class="timeline-item" date-is="1997">
+        <h1>大阪市内の病院で生まれる</h1>
         <p>
-          I'm speaking with myself, number one, because I have a very good brain
-          and I've said a lot of things. I write the best placeholder text, and
-          I'm the biggest developer on the web by far... While that's mock-ups
-          and this is politics, are they really so different? I think the only
-          card she has is the Lorem card.
+          日本で生まれた後は二歳まで大阪で過ごした。その後は中国へと帰り、小学校5年生まで中国でスパルタ教育をうける。
+        </p>
+      </div>
+      <div class="timeline-item" date-is="2009">
+        <h1>中国から日本へ帰国し、日本の小学校に転入する</h1>
+        <p>
+          転校一日目、中国人が珍しかったのか、私を一目見ようと、廊下が人であふれかえる。パンダになったような気分だった。
+        </p>
+      </div>
+      <div class="timeline-item" date-is="2012">
+        <h1>大阪府立天王寺高校に入学し、高校生活を送る</h1>
+        <p>
+          中学校の時は、何かに打ち込むことなく、だらだらと過ごす。テレビやゲームなどの娯楽は禁止されていたため、だらだらする以外の時間は勉強に費やしていた甲斐もあって、大阪有数の進学校へ進学する。高校一年生もまた、何かに打ち込むことがなく、ダラダラと過ごした。
+          高校二年生になると、下がり切っていた成績に対し、危機感を感じるようになり、勉強に打ち込むようになる。二年生後半から京都大学工学部情報学科を第一志望校に。
+        </p>
+      </div>
+      <div class="timeline-item" date-is="2016">
+        <h1>京都大学工学部情報学科に入学!</h1>
+        <p>
+          一浪の末、京都大学工学部情報学科に入学した。大学に入ってからは今まで抑圧されてきた分、自由を全力で謳歌した。ただ、旅行したり、友達と出かけたりするのではなく、4年間ほどひたすらに家に引きこもってゲームをして、アニメを視聴した。
+          時間を無駄にしたという気持ちには時々なるが、あまり後悔はない。
         </p>
       </div>
 
-      <div class="timeline-item" date-is="20-07-1990">
-        <h1>Oeehhh, that's awesome.. Me too!</h1>
+      <div class="timeline-item" date-is="2022">
+        <h1>エンジニアになると決意する</h1>
         <p>
-          I'm speaking with myself, number one, because I have a very good brain
-          and I've said a lot of things. I write the best placeholder text, and
-          I'm the biggest developer on the web by far... While that's mock-ups
-          and this is politics, are they really so different? I think the only
-          card she has is the Lorem card.
+          プログラマーになりたいと中高生のころから漠然と思っていた。特に何かアクションを起こしたことはなかったが、2022年になって、ようやく行動に出た。3月にエンジニア養成機関「42tokyo」の入学試験を受けた。一か月頑張った甲斐もあって、入学試験を無事に突破。
+          今はひたすらに、エンジニアになるという夢に向かって突き進んでいる。
         </p>
       </div>
-
-      <div class="timeline-item" date-is="20-07-1990">
-        <h1>I'm ::last-child so my border fades ^__^</h1>
-        <p>
-          I'm speaking with myself, number one, because I have a very good brain
-          and I've said a lot of things. I write the best placeholder text, and
-          I'm the biggest developer on the web by far... While that's mock-ups
-          and this is politics, are they really so different? I think the only
-          card she has is the Lorem card.
-        </p>
+    </div>
+    <div class="container" id="skill">
+      <h1>SKILL</h1>
+      <div class="wrapper">
+        <div class="skillbox">
+          <div class="imgbox">
+            <img class="Skill" src="./img/c.svg" alt="C言語" />
+          </div>
+          <div class="skill-progress">
+            <h2>学習時間</h2>
+            <p>2022年3月～。おもにlibcの再実装などをこなした</p>
+            <h2>実務経験</h2>
+            <p>なし</p>
+          </div>
+        </div>
+        <div class="skillbox">
+          <div class="imgbox">
+            <img class="Skill" src="./img/python.svg" alt="C言語" />
+          </div>
+          <div class="skill-progress">
+            <h2>学習時間</h2>
+            <p>2022年9月～　geeksalonのpythonコースで学んだ</p>
+            <h2>実務経験</h2>
+            <p>AI系のベンチャー企業にてインターン中</p>
+          </div>
+        </div>
+        <div class="skillbox">
+          <div class="imgbox">
+            <img class="Skill" src="./img/html-5.svg" alt="C言語" />
+          </div>
+          <div class="skill-progress">
+            <h2>学習時間</h2>
+            <p>2022年10月～</p>
+            <h2>実務経験</h2>
+            <p>なし</p>
+          </div>
+        </div>
+        <div class="skillbox">
+          <div class="imgbox">
+            <img class="Skill" src="./img/css-3.svg" alt="C言語" />
+          </div>
+          <div class="skill-progress">
+            <h2>学習時間</h2>
+            <p>2022年10月～</p>
+            <h2>実務経験</h2>
+            <p>なし</p>
+          </div>
+        </div>
+        <div class="skillbox">
+          <div class="imgbox">
+            <img class="Skill" src="./img/javascript.svg" alt="C言語" />
+          </div>
+          <div class="skill-progress">
+            <h2>学習時間</h2>
+            <p>2022年10月～</p>
+            <h2>実務経験</h2>
+            <p>なし</p>
+          </div>
+        </div>
       </div>
+    </div>
+    <div class="container" id="work">
+      <h1>work</h1>
     </div>
     <script src="main.js"></script>
   </body>
