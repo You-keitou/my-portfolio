@@ -233,6 +233,10 @@ p {
   text-align: center;
 }
 
+#work > p {
+  font-size: 2rem;
+}
+
 .work-box {
   width: 50%;
   height: auto;
@@ -240,6 +244,11 @@ p {
   position: relative;
   border: #f5f5f5 solid 3px;
   border-radius: 1em;
+}
+
+#career > h1 {
+  font-size: 5rem;
+  text-align: center;
 }
 
 footer {

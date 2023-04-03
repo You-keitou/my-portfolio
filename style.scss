@@ -257,6 +257,10 @@ $border-color: rgba(black, 0.3);
   text-align: center;
 }
 
+#work > p {
+  font-size: 2rem;
+}
+
 .work-box {
   width: 50%;
   height: auto;
@@ -264,6 +268,11 @@ $border-color: rgba(black, 0.3);
   position: relative;
   border: #f5f5f5 solid 3px;
   border-radius: 1em;
+}
+//---------------------career
+#career > h1 {
+  font-size: 5rem;
+  text-align: center;
 }
 
 //---------------------footer
